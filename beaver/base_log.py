@@ -5,6 +5,7 @@ class BaseLog(object):
 
     def __init__(self, logger=None):
         self._logger = logger
+        print("test")
 
     def _log_debug(self, message):
         if self._logger:
